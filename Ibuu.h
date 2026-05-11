@@ -23,3 +23,14 @@ public:
 void Ibu::tambahAnak(anak* pAnak) {
     daftar_anak.push_back(pAnak);
 }
+
+
+void Ibu::cetakAnak() {
+    cout << "Daftar anak dari Ibu \"" << nama << "\": \n";
+    for (auto& a : daftar_anak)
+    {
+        cout << a->nama << "\n";
+    }
+    cout << endl;
+}
+#endif
