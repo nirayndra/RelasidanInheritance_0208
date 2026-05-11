@@ -18,5 +18,8 @@ public:
 
     void tambahAnak(anak* pAnak);
     void cetakAnak();
-
 };
+
+void Ibu::tambahAnak(anak* pAnak) {
+    daftar_anak.push_back(pAnak);
+}
