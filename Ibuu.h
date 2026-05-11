@@ -2,3 +2,6 @@
 #define IBU_H
 
 class anak;
+
+class Ibu {
+};
